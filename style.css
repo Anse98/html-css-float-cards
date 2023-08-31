@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,11 +7,14 @@
 img {
   max-width: 100%;
 }
-main, footer {
+
+main,
+footer {
   font-size: 20px;
   font-family: 'Fredoka', sans-serif;
   font-weight: 300;
 }
+
 .header-container {
   max-width: 1000px;
   margin: 0 auto;
@@ -29,12 +32,12 @@ main, footer {
 .card-container {
   max-width: 1000px;
   border: solid 1px black;
-  margin:0 auto;
+  margin: 0 auto;
   margin-bottom: 40px;
 }
 
-.card-container:nth-child(3) {
-  margin-right: 0;
+.card-container div:nth-child(3n + 1) {
+  margin-left: 0;
 }
 
 .card-container::after {
@@ -45,15 +48,15 @@ main, footer {
 
 .card-information {
   min-height: 100px;
-  width:calc((100%-60px)/4);
+  width: calc((100% - 40px) / 3);
   border: 1px solid red;
   float: left;
-  margin-bottom:30px;
-  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
 }
 
 footer {
-  margin:0 auto;
+  margin: 0 auto;
   text-align: center;
   background-color: #222222;
   color: #B3C8C9;
@@ -68,12 +71,3 @@ footer {
   padding-bottom: 70px;
   padding-top: 30px;
 }
-
-
-
-
-
-
-
-
-
