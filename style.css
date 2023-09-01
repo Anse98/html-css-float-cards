@@ -13,7 +13,7 @@ main,footer {
   font-family: 'Fredoka', sans-serif;
   font-weight: 300;
 }
-
+/* header del container */
 .header-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -26,7 +26,9 @@ main,footer {
   margin-bottom: 40px;
   color: #E53170;
 }
+/* fine header del container */
 
+/* contenitore delle card */
 .card-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -77,7 +79,9 @@ main,footer {
   font-size: 17px;
   color: #46A4D4;
 }
+/* fine contenitore delle card */
 
+/* inizio footer */
 
 footer {
   margin: 0 auto;
@@ -95,3 +99,5 @@ footer {
   padding-bottom: 70px;
   padding-top: 30px;
 }
+
+/* fine footer */
